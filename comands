@@ -1,0 +1,4 @@
+docker build -t booting-web .
+docker run -p 8080:8080 -d booting-web
+docker container ls
+docker rm -f 'containerID'
